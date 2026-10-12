@@ -5,7 +5,7 @@ type Props = {};
 
 const topNavLinks = (props: Props) => {
     return (
-        <div>
+        <div className="hidden items-center gap-2 md:flex">
             <Link
                 href={home()}
                 className="inline-block rounded-sm  px-5 py-1.5 text-sm leading-normal text-[#1b1b18] hover:border-[#1915014a] dark:border-[#3E3E3A] dark:text-[#EDEDEC] dark:hover:border-[#62605b]"

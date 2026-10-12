@@ -5,7 +5,7 @@ type Props = {};
 
 const sideNavbar = (props: Props) => {
     return (
-        <div className="flex h-16 w-full items-center justify-between border-b border-[#E5E5E5] bg-[#FDFDFC] px-4 text-[#bebeb3] dark:border-[#1b1b18] dark:bg-[#0a0a0a] lg:px-8 mt-6">
+        <div className="flex md:hidden h-16 w-full items-center justify-between border-b border-[#E5E5E5] bg-[#FDFDFC] px-4 text-[#bebeb3] dark:border-[#1b1b18] dark:bg-[#0a0a0a] lg:px-8 mt-6">
             <Link href={home()} className="relative p-4">
                 <svg
                     className="w-8 h-8"
